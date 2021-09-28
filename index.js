@@ -3,7 +3,7 @@ console.log(userInfo)
 var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-    text : "I'm a moooodule",
+    text : `Hello i'm ${userInfo.name} from ${userInfo.campus} campus`,
     e : "oO",
     T : "U "
 }));
